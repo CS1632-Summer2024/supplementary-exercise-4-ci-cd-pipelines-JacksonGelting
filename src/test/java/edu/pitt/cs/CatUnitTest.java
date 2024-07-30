@@ -54,7 +54,7 @@ public class CatUnitTest {
 	@Test
 	public void testGetId() {
 		int ret = c.getId();
-		assertEquals(ret, 1);
+		assertEquals( 1, ret);
 	}
 
 	/**
@@ -84,7 +84,7 @@ public class CatUnitTest {
 	@Test
 	public void testGetRented() {
 		boolean ret = c.getRented();
-		assertEquals(ret, false);
+		assertEquals(false, ret);
 	}
 
 	/**
@@ -99,7 +99,7 @@ public class CatUnitTest {
 	@Test
 	public void testToString() {
 		String ret = c.toString();
-		assertEquals(ret, "ID 1. Jennyanydots");
+		assertEquals( "ID 1. Jennyanydots", ret);
 	}
 
 	/**
